@@ -3,6 +3,7 @@ supabase
 uvicorn[standard]
 psycopg2-binary
 python-dotenv
-passlib[bcrypt]
+bcrypt==4.0.1
+passlib[bcrypt]==1.7.4
 pyJWT
 pydantic[email]
